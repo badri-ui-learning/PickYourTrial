@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [PickYourTrial Automation]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listeners.CustomListerners"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="Signup(failed)">
+    <groups>
+      <run>
+        <include name="SmokeTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testcases.SignupTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="signupWithoutDetails"/>
+        </methods>
+      </class> <!-- testcases.SignupTest -->
+    </classes>
+  </test> <!-- Signup(failed) -->
+  <test thread-count="2" parallel="tests" name="Login(failed)">
+    <groups>
+      <run>
+        <include name="SmokeTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testcases.LoginTest">
+        <methods>
+          <include name="loginWithNoCredentials"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testcases.LoginTest -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [PickYourTrial Automation] -->

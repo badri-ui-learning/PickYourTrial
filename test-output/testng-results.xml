@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-24T07:13:57 IST" name="PickYourTrial Automation" finished-at="2022-01-24T07:14:20 IST" duration-ms="22157">
+    <groups>
+      <group name="SanityTest">
+        <method signature="LoginTest.loginWithNoCredentials()[pri:0, instance:testcases.LoginTest@16610890]" name="loginWithNoCredentials" class="testcases.LoginTest"/>
+        <method signature="SignupTest.signupWithoutDetails()[pri:0, instance:testcases.SignupTest@5b03b9fe]" name="signupWithoutDetails" class="testcases.SignupTest"/>
+      </group> <!-- SanityTest -->
+    </groups>
+    <test started-at="2022-01-24T07:13:57 IST" name="Login" finished-at="2022-01-24T07:14:18 IST" duration-ms="20489">
+      <class name="testcases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@16610890]" started-at="2022-01-24T07:13:57 IST" name="setup" finished-at="2022-01-24T07:14:02 IST" duration-ms="4439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="clickLoginButton()[pri:0, instance:testcases.LoginTest@16610890]" started-at="2022-01-24T07:14:02 IST" name="clickLoginButton" finished-at="2022-01-24T07:14:13 IST" duration-ms="11370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoginButton -->
+        <test-method signature="loginWithNoCredentials()[pri:0, instance:testcases.LoginTest@16610890]" started-at="2022-01-24T07:14:13 IST" name="loginWithNoCredentials" finished-at="2022-01-24T07:14:16 IST" duration-ms="2860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithNoCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.LoginTest@16610890]" started-at="2022-01-24T07:14:18 IST" name="teardown" finished-at="2022-01-24T07:14:18 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Login -->
+    <test started-at="2022-01-24T07:13:57 IST" name="Signup" finished-at="2022-01-24T07:14:20 IST" duration-ms="22157">
+      <class name="testcases.SignupTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.SignupTest@5b03b9fe]" started-at="2022-01-24T07:13:57 IST" name="setup" finished-at="2022-01-24T07:14:02 IST" duration-ms="4439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="clickLoginButton()[pri:0, instance:testcases.SignupTest@5b03b9fe]" started-at="2022-01-24T07:14:02 IST" name="clickLoginButton" finished-at="2022-01-24T07:14:15 IST" duration-ms="13328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoginButton -->
+        <test-method signature="signupWithoutDetails()[pri:0, instance:testcases.SignupTest@5b03b9fe]" started-at="2022-01-24T07:14:15 IST" name="signupWithoutDetails" finished-at="2022-01-24T07:14:18 IST" duration-ms="2338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupWithoutDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.SignupTest@5b03b9fe]" started-at="2022-01-24T07:14:19 IST" name="teardown" finished-at="2022-01-24T07:14:20 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.SignupTest -->
+    </test> <!-- Signup -->
+  </suite> <!-- PickYourTrial Automation -->
+</testng-results>
